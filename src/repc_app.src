@@ -1,0 +1,15 @@
+{application, {{name}},
+ [{description, "An OTP application"},
+  {vsn, {cmd, "cat ./Version"}},
+  {registered, []},
+  {maintainers, ["{{author}}"]},
+  {mod, {{{name}}_app, []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.

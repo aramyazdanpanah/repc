@@ -1,0 +1,56 @@
+{description, "OTP Application."}.
+
+{variables, [{name, "repc", "Name of the OTP application"}
+            ,{author, "aramyazdanpanah@gmail.com", "Author's email for this application."}
+            ,{description, "An OTP application", "One line description for this application."}
+            ,{header_comment, "Simple Erlang Project Creator (repc) by https://github.com/aramyazdanpanah/repc", "Comment for each auto generated file"}]}.
+
+{template, "repc.erl", "{{name}}/src/{{name}}.erl"}.
+
+{template, "repc_app.erl", "{{name}}/src/{{name}}_app.erl"}.
+
+{template, "repc_sup.erl", "{{name}}/src/{{name}}_sup.erl"}.
+
+{template, "repc_app.src", "{{name}}/src/{{name}}.app.src"}.
+
+{template, "repc_log.erl", "{{name}}/src/{{name}}_log.erl"}.
+
+{template, "repc_cli.erl", "{{name}}/src/cli.erl"}.
+
+{template, "repc_rebar.config", "{{name}}/rebar.config"}.
+
+{template, "repc_rebar.config.script", "{{name}}/rebar.config.script"}.
+
+{template, "repc_sys.config", "{{name}}/config/test.sys.config"}.
+{template, "repc_sys.config", "{{name}}/config/dev.sys.config"}.
+{template, "repc_sys.config", "{{name}}/config/stage.sys.config"}.
+{template, "repc_sys.config", "{{name}}/config/prod.sys.config"}.
+{template, "repc_sys.config", "{{name}}/config/sys.config"}.
+
+{template, "repc_vm.args", "{{name}}/config/vm.args"}.
+{template, "repc_vm.args", "{{name}}/config/test.vm.args"}.
+{template, "repc_vm.args", "{{name}}/config/dev.vm.args"}.
+{template, "repc_vm.args", "{{name}}/config/stage.vm.args"}.
+{template, "repc_vm.args", "{{name}}/config/prod.vm.args"}.
+
+{template, "repc_LICENSE", "{{name}}/LICENSE"}.
+
+{template, "repc_README.md", "{{name}}/README.md"}.
+
+{template, "repc_Makefile.mk", "{{name}}/Makefile"}.
+
+{template, "repc_Version", "{{name}}/Version"}.
+
+{file, "repc_rebar3", "{{name}}/script/rebar3"}.
+{file, "repc_cli", "{{name}}/script/cli"}.
+
+{chmod, "{{name}}/script/rebar3", 8#755}.
+{chmod, "{{name}}/script/cli", 8#755}.
+
+{template, "repc_test.erl", "{{name}}/test/{{name}}_SUITE.erl"}.
+
+{template, "repc_header.hrl", "{{name}}/include/{{name}}.hrl"}.
+
+{dir, "{{name}}/priv"}.
+
+{template, "repc_gitignore", "{{name}}/.gitignore"}.

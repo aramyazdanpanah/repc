@@ -1,0 +1,5 @@
+#!/bin/bash
+
+result=$(relx_nodetool eval "cli:run($@).")
+echo $result
+exit 0
