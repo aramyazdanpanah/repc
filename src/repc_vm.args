@@ -1,7 +1,7 @@
 # {{header_comment}}
 
 # Name of the node
--sname {{name}}@localhost
+-name {{name}}@127.0.0.1
 
 # Cookie for distributed erlang
 -setcookie {{name}}_cookie
