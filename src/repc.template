@@ -1,9 +1,9 @@
 {description, "OTP Application."}.
 
-{variables, [{name, "repc", "Name of the OTP application"}
-            ,{author, "aramyazdanpanah@gmail.com", "Author's email for this application."}
-            ,{description, "An OTP application", "One line description for this application."}
-            ,{header_comment, "Simple Erlang Project Creator (repc) by https://github.com/aramyazdanpanah/repc", "Comment for each auto generated file"}]}.
+{variables, [{name, "repc", "Name of the OTP application"},
+             {author, "Aram", "aramyazdanpanah@gmail.com"},
+             {description, "An OTP application", "One line description for this application."},
+             {header_comment, "Simple Erlang Project Creator (repc) by https://github.com/aramyazdanpanah/repc", "Comment for each auto generated file"}]}.
 
 {template, "repc.erl", "{{name}}/src/{{name}}.erl"}.
 
