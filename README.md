@@ -1,6 +1,6 @@
 repc
 ----
-rebar3 erlang project creator(repc) is a template for create project
+rebar3 erlang project creator(repc) is a template for create Erlang project
 
 how use this template
 ----
