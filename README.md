@@ -14,6 +14,11 @@ make install author=Aram email=aramyazdanpanah@gmail.com
 ```
 please set your name for author varaible and your email in email variable
 
+how create app
+----
+```
+rebar3 new repc first_app
+```
 
 TODO
 ----
