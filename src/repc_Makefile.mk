@@ -1,7 +1,7 @@
 PWD := $(shell pwd)
 SED := $(shell which sed)
 VER := $(shell cat ./Version)
-REBAR := $(PWD)/script/rebar3
+REBAR := $(shell which rebar3)
 
 .PHONY: compile shell   test    console-dev rel-dev rel-stage   rel-prod
 
