@@ -43,7 +43,6 @@
 
 {file, "repc_cli", "{{name}}/script/cli"}.
 
-{chmod, "{{name}}/script/rebar3", 8#755}.
 {chmod, "{{name}}/script/cli", 8#755}.
 
 {template, "repc_test.erl", "{{name}}/test/{{name}}_SUITE.erl"}.
