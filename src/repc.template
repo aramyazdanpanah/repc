@@ -41,7 +41,6 @@
 
 {template, "repc_Version", "{{name}}/Version"}.
 
-{file, "repc_rebar3", "{{name}}/script/rebar3"}.
 {file, "repc_cli", "{{name}}/script/cli"}.
 
 {chmod, "{{name}}/script/rebar3", 8#755}.
